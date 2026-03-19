@@ -12,7 +12,7 @@ import AdminDashboard from "./components/AdminDashboard";
 import "./components/admin.css";
 
 function App() {
-  const [userType, setUserType] = useState(null); // null, "teacher", "student", "admin"
+  const [userType, setUserType] = useState(null);
   const [teacherLogged, setTeacherLogged] = useState(false);
   const [studentLogged, setStudentLogged] = useState(false);
   const [adminLogged, setAdminLogged] = useState(false);
@@ -30,7 +30,6 @@ function App() {
     image: "dk.jpeg"
   };
 
-  // Portal Selection
   if (!userType) {
     return (
       <>
@@ -42,7 +41,6 @@ function App() {
             gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
             gap: "30px"
           }}>
-            {/* Teacher Portal */}
             <div style={{
               background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
               padding: "40px",
@@ -74,7 +72,6 @@ function App() {
               </button>
             </div>
 
-            {/* Student Portal */}
             <div style={{
               background: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
               padding: "40px",
@@ -106,7 +103,6 @@ function App() {
               </button>
             </div>
 
-            {/* Admin Portal */}
             <div style={{
               background: "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
               padding: "40px",
@@ -144,7 +140,6 @@ function App() {
     );
   }
 
-  // Teacher Portal
   if (userType === "teacher") {
     return (
       <>
@@ -214,7 +209,6 @@ function App() {
     );
   }
 
-  // Student Portal
   if (userType === "student") {
     return (
       <>
@@ -239,7 +233,6 @@ function App() {
     );
   }
 
-  // Admin Portal
   if (userType === "admin") {
     return (
       <>

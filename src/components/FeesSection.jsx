@@ -23,7 +23,6 @@ function FeesSection() {
     <div className="fees-section">
       <h2>💰 Fees Management</h2>
       
-      {/* Summary Cards */}
       <div className="fees-summary">
         <div className="fee-card total">
           <h3>Total Fees</h3>
@@ -39,7 +38,6 @@ function FeesSection() {
         </div>
       </div>
 
-      {/* Filter Section */}
       <div className="filter-section">
         <label>Filter by Status: </label>
         <select 
@@ -54,7 +52,6 @@ function FeesSection() {
         </select>
       </div>
 
-      {/* Fees Table */}
       <div className="fees-table-container">
         <table className="fees-table">
           <thead>

@@ -3,18 +3,18 @@ import { useState } from "react";
 function Attendance() {
   const [students, setStudents] = useState([
     { id: 1, name: "Narendra Modi", status: "" },
-    { id: 2, name: "Rahul Gndhi", status: "" },
-    { id: 3, name: "Mamta Banarjee", status: "" },
+    { id: 2, name: "Rahul Gandhi", status: "" },
+    { id: 3, name: "Mamta Banerjee", status: "" },
     { id: 4, name: "Akhilesh Yadav", status: "" },
     { id: 5, name: "Mulayam Singh", status: "" },
     { id: 6, name: "Yogi Adityanath", status: "" },
     { id: 7, name: "Mayawati", status: "" },
-    {id: 8, name: "Sonia Gandhi", status: "" },
-    {id: 9, name: "Arvind Kejriwal", status: "" },
-    {id: 10, name: "Priyanka Gandhi", status: "" },
-    {id: 11, name: "Lalu Prasad Yadav", status: "" },
-    {id: 12, name: "Nitish Kumar", status: "" },
-    {id: 13, name: "Amit Shah", status: "" },
+    { id: 8, name: "Sonia Gandhi", status: "" },
+    { id: 9, name: "Arvind Kejriwal", status: "" },
+    { id: 10, name: "Priyanka Gandhi", status: "" },
+    { id: 11, name: "Lalu Prasad Yadav", status: "" },
+    { id: 12, name: "Nitish Kumar", status: "" },
+    { id: 13, name: "Amit Shah", status: "" },
 
   ]);
 

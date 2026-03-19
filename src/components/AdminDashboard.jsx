@@ -63,7 +63,6 @@ function AdminDashboard({ onLogout }) {
       </aside>
 
       <main className="admin-content">
-        {/* Overview Section */}
         {activeSection === "overview" && (
           <div className="admin-section">
             <h2>📊 Dashboard Overview</h2>
@@ -100,7 +99,6 @@ function AdminDashboard({ onLogout }) {
           </div>
         )}
 
-        {/* Students Section */}
         {activeSection === "students" && (
           <div className="admin-section">
             <h2>👨‍🎓 Students Management</h2>
@@ -138,7 +136,6 @@ function AdminDashboard({ onLogout }) {
           </div>
         )}
 
-        {/* Teachers Section */}
         {activeSection === "teachers" && (
           <div className="admin-section">
             <h2>👨‍🏫 Teachers Management</h2>
@@ -176,7 +173,6 @@ function AdminDashboard({ onLogout }) {
           </div>
         )}
 
-        {/* Fees Section */}
         {activeSection === "fees" && (
           <FeesSection />
         )}

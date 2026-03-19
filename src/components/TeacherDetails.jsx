@@ -22,7 +22,6 @@ function TeacherDetails({ onLogout }) {
         color: "white",
         boxShadow: "0 8px 32px rgba(0,0,0,0.1)"
       }}>
-        {/* Teacher Image */}
         <div style={{ marginBottom: "20px" }}>
           <img 
             src={teacher.image} 
@@ -37,10 +36,8 @@ function TeacherDetails({ onLogout }) {
           />
         </div>
 
-        {/* Teacher Name */}
         <h2 style={{ margin: "10px 0", fontSize: "28px" }}>{teacher.name}</h2>
 
-        {/* Details Grid */}
         <div style={{
           display: "grid",
           gridTemplateColumns: "1fr 1fr",
@@ -69,7 +66,6 @@ function TeacherDetails({ onLogout }) {
           </div>
         </div>
 
-        {/* Contact Information */}
         <div style={{
           marginTop: "30px",
           padding: "20px",
@@ -86,7 +82,6 @@ function TeacherDetails({ onLogout }) {
           </p>
         </div>
 
-        {/* Logout Button */}
         <button 
           onClick={onLogout}
           style={{

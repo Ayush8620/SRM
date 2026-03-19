@@ -30,7 +30,6 @@ function StudentDashboard({ onLogout }) {
         color: "white",
         boxShadow: "0 8px 32px rgba(0,0,0,0.1)"
       }}>
-        {/* Profile Header */}
         <div style={{
           display: "flex",
           alignItems: "center",
@@ -60,7 +59,6 @@ function StudentDashboard({ onLogout }) {
           </div>
         </div>
 
-        {/* Marks Section */}
         <div style={{
           background: "rgba(255,255,255,0.1)",
           padding: "20px",
@@ -91,7 +89,6 @@ function StudentDashboard({ onLogout }) {
           </div>
         </div>
 
-        {/* Attendance Section */}
         <div style={{
           background: "rgba(255,255,255,0.1)",
           padding: "20px",
@@ -142,7 +139,6 @@ function StudentDashboard({ onLogout }) {
           </div>
         </div>
 
-        {/* Logout Button */}
         <button
           onClick={onLogout}
           style={{

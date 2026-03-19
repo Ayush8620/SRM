@@ -1,4 +1,3 @@
-/* Admin Dashboard Styles */
 .admin-dashboard {
   display: flex;
   gap: 20px;
@@ -8,7 +7,6 @@
   min-height: 80vh;
 }
 
-/* Sidebar */
 .admin-sidebar {
   width: 250px;
   background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
@@ -85,7 +83,6 @@
   background: rgba(255, 82, 82, 0.3);
 }
 
-/* Main Content */
 .admin-content {
   flex: 1;
   background: white;
@@ -124,7 +121,6 @@
   font-size: 24px;
 }
 
-/* Stats Grid */
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -164,7 +160,6 @@
   font-weight: bold;
 }
 
-/* Tables */
 .table-container,
 .fees-table-container {
   overflow-x: auto;
@@ -229,7 +224,6 @@
   color: white;
 }
 
-/* Fees Section Styles */
 .fees-section {
   animation: fadeIn 0.3s ease;
 }
@@ -278,7 +272,6 @@
   font-weight: bold;
 }
 
-/* Filter Section */
 .filter-section {
   display: flex;
   align-items: center;
@@ -311,7 +304,6 @@
   outline: none;
 }
 
-/* Status Badges */
 .status-badge {
   display: inline-block;
   padding: 6px 12px;
@@ -352,7 +344,6 @@
   background: var(--row-highlight, #f9f9f9);
 }
 
-/* Text Colors in Tables */
 .fees-table td.paid {
   color: #155724;
   font-weight: 600;
@@ -392,7 +383,6 @@
   color: white;
 }
 
-/* Overview Fullscreen Styles */
 .admin-dashboard.overview-fullscreen {
   gap: 20px;
 }
@@ -426,7 +416,7 @@
   font-size: 32px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
   .admin-dashboard {
     flex-direction: column;

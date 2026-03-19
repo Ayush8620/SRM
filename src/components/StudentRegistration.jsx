@@ -25,7 +25,6 @@ function StudentRegistration({ onRegister, onToggleForm }) {
     e.preventDefault();
     setError("");
 
-    // Validation
     if (!formData.name || !formData.rollNo || !formData.email || !formData.password || !formData.class) {
       setError("Please fill all required fields");
       return;
