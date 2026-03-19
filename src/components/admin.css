@@ -386,6 +386,40 @@
   color: white;
 }
 
+/* Overview Fullscreen Styles */
+.admin-dashboard.overview-fullscreen {
+  gap: 20px;
+}
+
+.admin-dashboard.overview-fullscreen .admin-content {
+  flex: 1;
+  width: 100%;
+  max-width: none;
+  padding: 40px;
+  max-height: none;
+  height: auto;
+}
+
+.admin-dashboard.overview-fullscreen .stats-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.admin-dashboard.overview-fullscreen .stat-card {
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.admin-dashboard.overview-fullscreen .stat-icon {
+  font-size: 50px;
+}
+
+.admin-dashboard.overview-fullscreen .stat-number {
+  font-size: 32px;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .admin-dashboard {
