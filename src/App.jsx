@@ -150,7 +150,7 @@ function App() {
       <>
         <Navbar />
         {!teacherLogged ? (
-          <TeacherLogin onLogin={() => setTeacherLogged(true)} />
+          <TeacherLogin onLogin={() => { setTeacherLogged(true); setActiveSection("timetable"); }} />
         ) : (
           <div className="home-page">
             <aside className="left-panel">
