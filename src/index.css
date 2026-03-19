@@ -93,10 +93,10 @@ h2 {
   line-height: 118%;
   letter-spacing: -0.24px;
   margin: 0 0 8px;
-  color: rgb(0, 0, 0);
+  color: var(--text-h);
   @media (max-width: 1024px) {
-  font-size: 20px;
-  color: rgb(0, 0, 0);
+    font-size: 20px;
+    color: var(--text-h);
   }
 }
 p {
