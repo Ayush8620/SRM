@@ -15,7 +15,7 @@ function AdminDashboard({ onLogout }) {
   const [teachersData] = useState([
     { id: 1, name: "Dinesh Kumar Kushwaha", subject: "Web Development", email: "dinesh@gmail.com", phone: "+91 9876543210", experience: "10 Years" },
     { id: 2, name: "Ashish Dwivedi  ", subject: "DSTL", email: "ashish@gmail.com", phone: "+91 9876543211", experience: "8 Years" },
-    { id: 3, name: "", subject: "English", email: "priya@gmail.com", phone: "+91 9876543212", experience: "6 Years" },
+    { id: 3, name: "Priya Sharma", subject: "English", email: "priya@gmail.com", phone: "+91 9876543212", experience: "6 Years" },
     { id: 4, name: "Rajesh Singh", subject: "Science", email: "rajesh@gmail.com", phone: "+91 9876543213", experience: "12 Years" },
   ]);
 
@@ -63,7 +63,6 @@ function AdminDashboard({ onLogout }) {
       </aside>
 
       <main className="admin-content">
-        {/* Overview Section */}
         {activeSection === "overview" && (
           <div className="admin-section">
             <h2>📊 Dashboard Overview</h2>
@@ -100,7 +99,6 @@ function AdminDashboard({ onLogout }) {
           </div>
         )}
 
-        {/* Students Section */}
         {activeSection === "students" && (
           <div className="admin-section">
             <h2>👨‍🎓 Students Management</h2>
@@ -138,7 +136,6 @@ function AdminDashboard({ onLogout }) {
           </div>
         )}
 
-        {/* Teachers Section */}
         {activeSection === "teachers" && (
           <div className="admin-section">
             <h2>👨‍🏫 Teachers Management</h2>
@@ -176,7 +173,6 @@ function AdminDashboard({ onLogout }) {
           </div>
         )}
 
-        {/* Fees Section */}
         {activeSection === "fees" && (
           <FeesSection />
         )}

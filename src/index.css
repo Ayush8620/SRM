@@ -118,7 +118,6 @@ code {
   background: var(--code-bg);
 }
 
-/* Styling for form sections */
 .section {
   padding: 24px;
   margin: 16px 0;
@@ -127,7 +126,6 @@ code {
   border-radius: 8px;
 }
 
-/* Button styling */
 .btn {
   padding: 10px 20px;
   background: var(--accent);
@@ -145,7 +143,6 @@ code {
   opacity: 0.9;
 }
 
-/* Form styling */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -169,7 +166,6 @@ code {
   box-shadow: 0 0 0 3px var(--accent-bg);
 }
 
-/* Home Page Layout */
 .home-page {
   display: grid;
   grid-template-columns: 300px 1fr;

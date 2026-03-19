@@ -8,7 +8,7 @@ function TeacherLogin({ onLogin }) {
     e.preventDefault();
     if (email && password) {
       alert("Login Successful! ✅");
-      onLogin(); // Call a function to show the dashboard
+      onLogin();
     }
   };
 
