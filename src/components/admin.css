@@ -94,10 +94,16 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   overflow-y: auto;
   max-height: 85vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .admin-section {
   animation: fadeIn 0.3s ease;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 @keyframes fadeIn {
@@ -384,6 +390,40 @@
 .action-btn.view-btn:hover {
   background: #1976d2;
   color: white;
+}
+
+/* Overview Fullscreen Styles */
+.admin-dashboard.overview-fullscreen {
+  gap: 20px;
+}
+
+.admin-dashboard.overview-fullscreen .admin-content {
+  flex: 1;
+  width: 100%;
+  max-width: none;
+  padding: 40px;
+  max-height: none;
+  height: auto;
+}
+
+.admin-dashboard.overview-fullscreen .stats-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.admin-dashboard.overview-fullscreen .stat-card {
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.admin-dashboard.overview-fullscreen .stat-icon {
+  font-size: 50px;
+}
+
+.admin-dashboard.overview-fullscreen .stat-number {
+  font-size: 32px;
 }
 
 /* Responsive Design */

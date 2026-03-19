@@ -20,7 +20,7 @@ function AdminDashboard({ onLogout }) {
   ]);
 
   return (
-    <div className="admin-dashboard">
+    <div className={`admin-dashboard ${activeSection === "overview" ? "overview-fullscreen" : ""}`}>
       <aside className="admin-sidebar">
         <div className="admin-profile">
           <div className="admin-avatar">👤</div>

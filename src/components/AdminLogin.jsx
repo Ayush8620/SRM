@@ -9,8 +9,7 @@ function AdminLogin({ onLogin }) {
     e.preventDefault();
     setError("");
 
-    // Admin credentials validation
-    if (email === "admin@srm.com" && password === "admin123") {
+    if (email === "admin@gmail.com" && password === "admin123") {
       alert("Admin Login Successful! ✅");
       onLogin();
     } else {
@@ -109,7 +108,7 @@ function AdminLogin({ onLogin }) {
           textAlign: "center"
         }}>
           <p>Demo Credentials:</p>
-          <p>Email: admin@srm.com</p>
+          <p>Email: admin@gmail.com</p>
           <p>Password: admin123</p>
         </div>
       </div>
