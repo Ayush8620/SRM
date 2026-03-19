@@ -53,7 +53,7 @@ function StudentDashboard({ onLogout }) {
           <div style={{ textAlign: "left", flex: 1 }}>
             <h2 style={{ margin: "0 0 10px 0", fontSize: "28px" }}>{student.name}</h2>
             <p style={{ margin: "8px 0" }}><strong>Roll No:</strong> {student.rollNo}</p>
-            <p style={{ margin: "8px 0" }}><strong>Class:</strong> {student.class}</p>
+            <p style={{ margin: "8px 0" }}><strong>Course:</strong> {student.course}</p>
             <p style={{ margin: "8px 0" }}><strong>Email:</strong> {student.email}</p>
             <p style={{ margin: "8px 0" }}><strong>Phone:</strong> {student.phone}</p>
           </div>

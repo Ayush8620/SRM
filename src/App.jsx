@@ -38,7 +38,7 @@ function App() {
           <h2 style={{ fontSize: "32px", marginBottom: "40px" }}>Select Your Portal</h2>
           <div style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+            gridTemplateColumns: "repeat(3, minmax(220px, 1fr))",
             gap: "30px"
           }}>
             <div style={{
