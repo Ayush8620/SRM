@@ -14,8 +14,8 @@ function AdminDashboard({ onLogout }) {
 
   const [teachersData] = useState([
     { id: 1, name: "Dinesh Kumar Kushwaha", subject: "Web Development", email: "dinesh@gmail.com", phone: "+91 9876543210", experience: "10 Years" },
-    { id: 2, name: "Sharma Ji", subject: "Mathematics", email: "sharma@gmail.com", phone: "+91 9876543211", experience: "8 Years" },
-    { id: 3, name: "Priya Verma", subject: "English", email: "priya@gmail.com", phone: "+91 9876543212", experience: "6 Years" },
+    { id: 2, name: "Ashish Dwivedi  ", subject: "DSTL", email: "ashish@gmail.com", phone: "+91 9876543211", experience: "8 Years" },
+    { id: 3, name: "", subject: "English", email: "priya@gmail.com", phone: "+91 9876543212", experience: "6 Years" },
     { id: 4, name: "Rajesh Singh", subject: "Science", email: "rajesh@gmail.com", phone: "+91 9876543213", experience: "12 Years" },
   ]);
 
@@ -86,7 +86,7 @@ function AdminDashboard({ onLogout }) {
                 <span className="stat-icon">💰</span>
                 <div className="stat-content">
                   <h4>Total Revenue</h4>
-                  <p className="stat-number">₹2,50,000</p>
+                  <p className="stat-number">₹20,500,000</p>
                 </div>
               </div>
               <div className="stat-card">
