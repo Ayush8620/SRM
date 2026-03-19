@@ -10,7 +10,7 @@ function AdminLogin({ onLogin }) {
     setError("");
 
     // Admin credentials validation
-    if (email === "admin@srm.com" && password === "admin123") {
+    if (email === "admin@gmail.com" && password === "admin123") {
       alert("Admin Login Successful! ✅");
       onLogin();
     } else {
