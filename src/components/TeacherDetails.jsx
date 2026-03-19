@@ -10,7 +10,7 @@ function TeacherDetails({ onLogout }) {
     subject: "Mathematics",
     experience: "10 Years",
     qualification: "PhD in Mathematics",
-    image: "dk.jpeg"
+    image: "image.jpeg"
   });
 
   return (

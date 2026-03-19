@@ -27,7 +27,7 @@ function App() {
     subject: "Web Development",
     experience: "10 Years",
     qualification: "PhD in Mathematics",
-    image: "dk.jpeg"
+    image: "image.jpeg"
   };
 
   if (!userType) {
