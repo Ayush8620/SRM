@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weekly Timetable</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f6f9;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 95%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            background: white;
+            border-radius: 12px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td:first-child {
+            background-color: #2c3e50;
+            color: white;
+            font-weight: bold;
+        }
+        .sectionA {
+            background-color: #d1e7dd;
+            color: #0f5132;
+            font-weight: bold;
+        }
+        .sectionB {
+            background-color: #cfe2ff;
+            color: #084298;
+            font-weight: bold;
+        }
+        .free {
+            background-color: #ede7f6;
+            color: #4a148c; /* dark purple */
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        .recess {
+            background-color: #ffc107;
+            font-weight: bold;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Weekly Timetable (Section A & B)</h2>
+
+<table>
+    <tr>
+        <th>Day / Period</th>
+        <th>1<br>9-10 A.M</th>
+        <th>2<br>10-11 A.M.</th>
+        <th>3<br>11-12 P.M.</th>
+        <th>4<br>12-1 P.M.</th>
+        <th class="recess">Recess<br>1-2 P.M.</th>
+        <th>5<br>2-3 P.M.</th>
+        <th>6<br>3-4 P.M.</th>
+    </tr>
+
+    <tr>
+        <td>Monday</td>
+        <td class="sectionA">Sec A</td>
+        <td class="sectionB">Sec B</td>
+        <td class="free">Free</td>
+        <td class="sectionA">Sec A</td>
+        <td class="recess">Break</td>
+        <td class="sectionB">Sec B</td>
+        <td class="free">Free</td>
+    </tr>
+
+    <tr>
+        <td>Tuesday</td>
+        <td class="sectionB">Sec B</td>
+        <td class="sectionA">Sec A</td>
+        <td class="sectionB">Sec B</td>
+        <td class="free">Free</td>
+        <td class="recess">Break</td>
+        <td class="sectionA">Sec A</td>
+        <td class="sectionB">Sec B</td>
+    </tr>
+
+    <tr>
+        <td>Wednesday</td>
+        <td class="free">Free</td>
+        <td class="sectionA">Sec A</td>
+        <td class="sectionB">Sec B</td>
+        <td class="sectionA">Sec A</td>
+        <td class="recess">Break</td>
+        <td class="free">Free</td>
+        <td class="sectionB">Sec B</td>
+    </tr>
+
+    <tr>
+        <td>Thursday</td>
+        <td class="sectionA">Sec A</td>
+        <td class="free">Free</td>
+        <td class="sectionB">Sec B</td>
+        <td class="sectionA">Sec A</td>
+        <td class="recess">Break</td>
+        <td class="sectionB">Sec B</td>
+        <td class="free">Free</td>
+    </tr>
+
+    <tr>
+        <td>Friday</td>
+        <td class="sectionB">Sec B</td>
+        <td class="sectionA">Sec A</td>
+        <td class="free">Free</td>
+        <td class="sectionB">Sec B</td>
+        <td class="recess">Break</td>
+        <td class="sectionA">Sec A</td>
+        <td class="sectionB">Sec B</td>
+    </tr>
+
+    <tr>
+        <td>Saturday</td>
+        <td class="free">Free</td>
+        <td class="sectionB">Sec B</td>
+        <td class="sectionA">Sec A</td>
+        <td class="sectionB">Sec B</td>
+        <td class="recess">Break</td>
+        <td class="free">Free</td>
+        <td class="sectionA">Sec A</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
