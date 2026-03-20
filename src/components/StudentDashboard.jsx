@@ -1,4 +1,5 @@
 import { useState } from "react";
+import image from "../assets/img.jpeg";
 
 function StudentDashboard({ onLogout }) {
   const [student] = useState({
@@ -7,7 +8,7 @@ function StudentDashboard({ onLogout }) {
     course: "btech",
     email: "harshittr@gmail.com",
     phone: "+91 8081218881",
-    image: "img.jpeg",
+    image: image,
     marks: {
       math: 85,
       english: 78,

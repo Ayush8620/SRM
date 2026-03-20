@@ -11,6 +11,7 @@ import AdminLogin from "./components/AdminLogin";
 import AdminDashboard from "./components/AdminDashboard";
 import "./components/admin.css";
 import Timetable from "./components/timetable";
+import image from "./assets/image.jpeg";
 
 function App() {
   const [userType, setUserType] = useState(null);
@@ -28,7 +29,7 @@ function App() {
     subject: "Web Development",
     experience: "10 Years",
     qualification: "PhD in Mathematics",
-    image: "image.jpeg"
+    image: image
   };
 
   if (!userType) {
