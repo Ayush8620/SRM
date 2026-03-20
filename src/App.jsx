@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import AdminLogin from "./components/AdminLogin";
 import AdminDashboard from "./components/AdminDashboard";
 import "./components/admin.css";
+import Timetable from "./components/timetable";
 
 function App() {
   const [userType, setUserType] = useState(null);
@@ -191,11 +192,7 @@ function App() {
                 <section className="section">
                   <h2>Class Time Table</h2>
                   <div style={{ marginTop: "20px" }}>
-                    <iframe
-                      src="/time1.html"
-                      title="Time Table"
-                      style={{ width: "100%", height: "600px", border: "1px solid #ccc", borderRadius: "8px" }}
-                    />
+                    <Timetable />
                   </div>
                 </section>
               )}
